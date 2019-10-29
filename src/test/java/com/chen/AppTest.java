@@ -9,8 +9,15 @@ package com.chen;
 //import org.apache.shiro.subject.Subject;
 
 import java.sql.SQLOutput;
+import java.util.HashMap;
+import java.util.Map;
 
 public class AppTest {
+    public static void main(String[] args){
+        Map map=new HashMap();
+        Runnable r=()-> System.out.println();
+    }
+
 //    public static void main(String[] args) {
 //        DefaultSecurityManager securityManager = new DefaultSecurityManager();
 //        SimpleAccountRealm simpleAccountRealm=new SimpleAccountRealm();
