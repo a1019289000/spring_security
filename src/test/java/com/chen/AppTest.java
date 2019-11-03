@@ -11,11 +11,18 @@ package com.chen;
 import java.sql.SQLOutput;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
+interface t{
+    int x(int u);
+}
 public class AppTest {
     public static void main(String[] args){
         Map map=new HashMap();
         Runnable r=()-> System.out.println();
+        t tt=(i)-> {return i;};
+        Predicate predicate=(x)->{return true;};
     }
 
 //    public static void main(String[] args) {

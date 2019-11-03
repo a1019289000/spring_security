@@ -15,6 +15,7 @@ public class Result {
 class a{
     int a=100;
 
+
     void print() {
         System.out.println("aaa");
     }
